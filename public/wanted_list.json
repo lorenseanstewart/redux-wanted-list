@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Butterfingers McGee",
+    "image": "https://api.adorable.io/avatars/face/eyes3/nose2/mouth4/F5CDE6",
+    "reason": "Butterfingers attempted to steal the world most valuable faberge egg, but dropped it.",
+    "reward": "$500,000"
+  },
+  {
+    "name": "Ravenous Reggie",
+    "image": "https://api.adorable.io/avatars/face/eyes6/nose8/mouth7/CDCB8D",
+    "reason": "This ravenous man eats his roommates food without asking.",
+    "reward": "A sincere handshake."
+  },
+  {
+    "name": "Jerry the Vandal",
+    "image": "https://api.adorable.io/avatars/face/eyes2/nose7/mouth3/819143",
+    "reason": "Jerry drives to construction areas all around town, and writes his name in the wet cement.",
+    "reward": "An engraved plaque from the city council."
+  }
+]

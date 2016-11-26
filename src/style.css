@@ -1,0 +1,109 @@
+.loading-container {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 50vw;
+}
+.loading:after {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2rem;
+}
+.btn-clear {
+  float: right;
+}
+.card {
+  margin-bottom: 15px;
+  box-shadow: 0 .1rem .4rem rgba(0, 0, 0, .3);
+  padding: 1.5rem;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.card-header h4,
+.modal-header h4 {
+  font-weight: 400;
+}
+.card-header .tooltip:after {
+  width: 190px;
+}
+.avatar {
+  margin: 1.5rem  2.5rem  1.5rem  0;
+}
+.btn-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card-body p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+textarea.form-input {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.reward {
+  margin-left: 1.5rem;
+  font-weight: 300;
+}
+.reward span {
+  font-weight: 400;
+}
+.modal-container .modal-body {
+  overflow: visible;
+}
+.modal-container .modal-footer {
+    margin-top: 25px;
+}
+.form-group .dds {
+  display: flex;
+  justify-content: space-between;
+}
+.color-picker-container {
+  display: flex;
+  align-items: center;
+}
+.new-avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.new-avatar-container .avatar.avatar-xl {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: -24px;
+  width: 100px;
+}
+.new-avatar-container .avatar.avatar-xl label {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 400;
+}
+.new-avatar-container .avatar.avatar-xl img {
+  width: 64px;
+  height: 64px;
+}
+@media screen and (max-width: 700px) {
+  .card {
+    padding: .5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .card .card-title {
+    font-size: 1.6rem;
+  }
+  .card-body p {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  .card-header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
