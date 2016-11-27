@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import NewUserFace from './NewUserFace';
 
 class AddUserModal extends Component {
-  constructor(props) {
-    super(props);
-    this.createMarkup = this.createMarkup.bind(this);
-  }
-  createMarkup(html) {
-    return {__html: html};
-  }
   render() {
     return (
       <div className={`modal ${this.props.open ? 'active' : null}`}>
