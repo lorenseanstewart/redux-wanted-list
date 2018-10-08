@@ -1,4 +1,4 @@
-###Tutorial: A Practical Guide to Redux
+### Tutorial: A Practical Guide to Redux
 
 This repo is the companion to my blog post, [A Practical Guide to Redux](http://lorenstewart.me/2016/11/27/a-practical-guide-to-redux/).
 
